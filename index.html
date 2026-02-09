@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name</title>
+  <meta name="description" content="Personal website of Your Name." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div>
+        <h1>Your Name</h1>
+        <p class="subtitle">Position • Department • University</p>
+        <p class="links">
+          <a href="mailto:you@school.edu">Email</a>
+          <span>•</span>
+          <a href="https://scholar.google.com/">Google Scholar</a>
+          <span>•</span>
+          <a href="https://github.com/YOURUSERNAME">GitHub</a>
+          <span>•</span>
+          <a href="assets/CV.pdf">CV (PDF)</a>
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>
+        2–4 lines about your research focus and what you build/publish.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research</h2>
+      <ul>
+        <li>Project A — one sentence + link</li>
+        <li>Project B — one sentence + link</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Selected Publications</h2>
+      <ol>
+        <li>Author, Title, Journal (Year). <a href="#">PDF</a></li>
+        <li>Author, Title, Journal (Year). <a href="#">DOI</a></li>
+      </ol>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Your Name</p>
+    </footer>
+  </main>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
