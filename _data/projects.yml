@@ -1,0 +1,7 @@
+- name: 1D_Frenkel_exciton_CT_SF
+  url: https://github.com/pandachang97/1D_Frenkel_exciton_CT_SF
+  desc: Frenkel–Holstein + CT/TT coupling code
+
+- name: qe-build-notes
+  url: https://github.com/pandachang97/qe-build-notes
+  desc: QE compile notes + troubleshooting
